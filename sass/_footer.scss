@@ -1,0 +1,119 @@
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #0f1111;
+    color: #ecf0f1;
+
+    .container-footer-all {
+        
+        margin: auto;
+        padding: 30px;
+
+        .container-body {
+            display: flex;
+            justify-content: space-between;
+
+
+            .column1 {
+                max-width: 600px;
+
+
+                .hilera {
+                    margin-top: 20px;
+                    display: flex;
+
+                    .fa-instagram {
+                        font-size: 15px;
+                    }
+                    
+                    .fa-facebook-square {
+                        font-size: 15px;
+                    }
+                    
+                    .fa-twitter-square {
+                        font-size: 15px;
+                    }
+                }
+                
+                .hilera img {
+                    width: 36px;
+                    height: 36px;
+                }
+                
+                .hilera label {
+                    margin-top: 0px;
+                    color: #ecf0f1;
+                    font-size: 13px;
+                
+                }
+                
+                .hilera label a:hover {
+                    color: #e1b12c;
+                
+                }
+            
+            }
+            
+            .column1 h4 {
+                font-size: 13px;
+                color: #ecf0f1;
+            }
+
+            .column2 {
+                max-width: 600px;
+
+
+                .row2 {
+                    margin-top: 20px;
+                    display: flex;
+
+                    .row2 img {
+                        width: 36px;
+                        height: 36px;
+                    }
+
+                    .row2 label {
+                        margin-left: 20px;
+                        margin-top: 0px;
+                        max-width: 250px;
+                        font-size: 13px;
+                    
+                    }
+
+                    .fa-location-arrow {
+                        font-size: 15px;
+                    }
+                    
+                    .fa-phone {
+                        font-size: 15px;
+                    }
+                    
+                    .fa-envelope {
+                        font-size: 15px;
+                    }
+                }
+
+
+            
+            }
+            
+            .column2 h4 {
+                font-size: 13px;
+            }
+
+
+
+
+
+        }
+
+        .container-body a,
+        label {
+            color: #ecf0f1;
+        }
+    }
+}
+
+
+/* FINN */

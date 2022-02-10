@@ -1,0 +1,55 @@
+//HEADER
+/* Estilos HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgb(211, 209, 209);
+
+    
+
+    #flex-nav {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .nav__links li a {
+        transition: all 10s ease 3;
+    }
+    
+    .nav__links li a:hover {
+        color: #e1b12c;
+        box-shadow: 0px 1px 0px #e4e9e9;
+    }
+
+
+    .flex-logo img {
+        width: 55px;
+        height: auto;
+    }
+}
+
+
+
+header li,
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: #2d3436;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* FIN */
