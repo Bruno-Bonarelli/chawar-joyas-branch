@@ -16,12 +16,12 @@
 
     form {
         width: 90%;
-        background: white;
+        background: $blanco;
         /* margin: 100px; */
         padding: 40px;
         border-radius: 3px;
         box-sizing: border-box;
-        color: black;
+        color: $negro;
 
         .border-botton {
             border-bottom: solid 0.5px black;
@@ -29,25 +29,25 @@
 
         .black {
             display: flex;
-            color: black;
+            color: $negro;
             font-weight: 800;
         }
 
         label {
             display: block;
             margin: 20px 0;
-            color: black;
+            color: $negro;
         }
 
         input[type="text"]:focus,
         textarea:focus {
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid $negro;
 
             textarea::-webkit-scrollbar {
                 width: 4px;
             }
             textarea::-webkit-scrollbar-thumb {
-                background-color: black;
+                background-color: $negro;
             }
         }
 
@@ -58,8 +58,8 @@
                 margin-top: 30px;
                 width: 90%;
                 max-width: 200px;
-                color: white;
-                background: black;
+                color: $blanco;
+                background: $negro;
                 cursor: pointer;
 
                 

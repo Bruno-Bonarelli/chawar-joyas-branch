@@ -20,6 +20,7 @@ main {
 footer {
   grid-area: pie; }
 
+/* Variables de colores */
 /* Estilos HEADER */
 header {
   display: flex;
@@ -50,7 +51,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 13px;
-  color: #2d3436;
+  color: black;
   text-decoration: none;
   list-style-type: none;
   margin-left: 20px;
@@ -190,7 +191,7 @@ a {
 footer {
   width: 100%;
   background-color: #0f1111;
-  color: #ecf0f1; }
+  color: white; }
   footer .container-footer-all {
     margin: auto;
     padding: 30px; }
@@ -213,13 +214,13 @@ footer {
           height: 36px; }
         footer .container-footer-all .container-body .column1 .hilera label {
           margin-top: 0px;
-          color: #ecf0f1;
+          color: white;
           font-size: 13px; }
         footer .container-footer-all .container-body .column1 .hilera label a:hover {
           color: #e1b12c; }
       footer .container-footer-all .container-body .column1 h4 {
         font-size: 13px;
-        color: #ecf0f1; }
+        color: white; }
       footer .container-footer-all .container-body .column2 {
         max-width: 600px; }
         footer .container-footer-all .container-body .column2 .row2 {
@@ -243,7 +244,7 @@ footer {
         font-size: 13px; }
     footer .container-footer-all .container-body a,
     footer .container-footer-all label {
-      color: #ecf0f1; }
+      color: white; }
 
 /* FINN */
 /* MEDIA QUERIS DESKTOP */
@@ -303,7 +304,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 15px;
-    color: #2d3436;
+    color: black;
     text-decoration: none;
     list-style-type: none;
     margin-left: 20px;
@@ -508,8 +509,8 @@ footer {
   /* FOOOTER */
   footer {
     width: 100%;
-    background-color: #0f1111;
-    color: #ecf0f1; }
+    background-color: black;
+    color: white; }
     footer .container-footer-all {
       width: 100%;
       max-width: 1000px;
@@ -534,12 +535,12 @@ footer {
             height: 36px; }
           footer .container-footer-all .container-body .column1 .hilera label {
             margin-top: 0px;
-            color: #ecf0f1; }
+            color: white; }
           footer .container-footer-all .container-body .column1 .hilera label a:hover {
             color: #e1b12c; }
         footer .container-footer-all .container-body .column1 h4 {
           font-size: 20px;
-          color: #ecf0f1; }
+          color: white; }
         footer .container-footer-all .container-body .column2 {
           max-width: 600px; }
           footer .container-footer-all .container-body .column2 .row2 {
@@ -562,5 +563,5 @@ footer {
           font-size: 20px; }
       footer .container-footer-all .container-body a,
       footer .container-footer-all label {
-        color: #ecf0f1; }
+        color: white; }
   /* FINNNN */ }

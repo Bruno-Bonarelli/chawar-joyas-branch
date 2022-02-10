@@ -27,7 +27,7 @@ header {
     }
     
     .nav__links li a:hover {
-        color: #e1b12c;
+        color: $amarillo;
         box-shadow: 0px 1px 0px #e4e9e9;
     }
 
@@ -45,7 +45,7 @@ a {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 13px;
-    color: #2d3436;
+    color: $negro;
     text-decoration: none;
     list-style-type: none;
     margin-left: 20px;

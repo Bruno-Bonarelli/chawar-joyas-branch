@@ -3,7 +3,7 @@
 footer {
     width: 100%;
     background-color: #0f1111;
-    color: #ecf0f1;
+    color: $blanco;
 
     .container-footer-all {
         
@@ -43,13 +43,13 @@ footer {
                 
                 .hilera label {
                     margin-top: 0px;
-                    color: #ecf0f1;
+                    color: $blanco;
                     font-size: 13px;
                 
                 }
                 
                 .hilera label a:hover {
-                    color: #e1b12c;
+                    color: $amarillo;
                 
                 }
             
@@ -57,7 +57,7 @@ footer {
             
             .column1 h4 {
                 font-size: 13px;
-                color: #ecf0f1;
+                color: $blanco;
             }
 
             .column2 {
@@ -110,7 +110,7 @@ footer {
 
         .container-body a,
         label {
-            color: #ecf0f1;
+            color: $blanco;
         }
     }
 }
