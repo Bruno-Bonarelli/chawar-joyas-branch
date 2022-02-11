@@ -418,6 +418,15 @@
 
     /* FOOOTER */
 
+    //MIXING
+    @mixin tamaño ($ancho, $alto) {
+
+        width: $ancho;
+        height: $alto;
+        
+    }
+    //FIN MIXING
+
     footer {
         width: 100%;
         background-color: $negro;
@@ -449,11 +458,11 @@
                         }
         
                         .fa-facebook-square {
-                            font-size: 20px;
+                            @extend fa-instagram ;
                         }
         
                         .fa-twitter-square {
-                            font-size: 20px;
+                            @extend fa-instagram ;
                         }
 
 
@@ -461,8 +470,7 @@
                     }
     
                     .hilera img {
-                        width: 36px;
-                        height: 36px;
+                        @include tamaño (36px, 36px)
                     }
     
                     .hilera label {
@@ -494,23 +502,22 @@
 
 
                         .fa-location-arrow {
-                            font-size: 20px;
+                            @extend fa-instagram ;
                         }
         
                         .fa-phone {
-                            font-size: 20px;
+                            @extend fa-instagram ;
                         }
         
                         .fa-envelope {
-                            font-size: 20px;
+                            @extend fa-instagram ;
                         }
 
 
                     }
     
                     .row2 img {
-                        width: 36px;
-                        height: 36px;
+                        @include tamaño (36px, 36px)
                     }
     
                     .row2 label {
