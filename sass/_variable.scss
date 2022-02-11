@@ -1,10 +1,17 @@
 /* Variables de colores */
 
-/* MAPA de variable de colores */
+
+
+  $blanco: white;
+
+  $negro: black;
+  
+  $amarillo: #e1b12c ;
+
+
 
 $paleta: (
-
-  blanco: white,
-  negro: black,
-  amarillo: #e1b12c,
-);
+    primario: white,
+    secundario: black,
+    terciario: #e1b12c,
+)

@@ -7,11 +7,16 @@
     height: $alto;
     
 }
+//Fin mixing
+
+//Maps
+$secundario: map-get($paleta, secundario);
+$primario: map-get($paleta, primario);
 
 footer {
     width: 100%;
-    background-color: #0f1111;
-    color: $blanco;
+    background-color: $secundario;
+    color: $primario;
 
     .container-footer-all {
         
@@ -36,11 +41,11 @@ footer {
                     }
                     
                     .fa-facebook-square {
-                        @extend fa-instagram ;
+                        @extend .fa-instagram ;
                     }
                     
                     .fa-twitter-square {
-                        @extend fa-instagram ;
+                        font-size: 15px ;
                     }
                 }
                 
@@ -88,15 +93,15 @@ footer {
                     }
 
                     .fa-location-arrow {
-                        @extend fa-instagram ;
+                        font-size: 15px ;
                     }
                     
                     .fa-phone {
-                        @extend fa-instagram ;
+                        font-size: 15px ;
                     }
                     
                     .fa-envelope {
-                        @extend fa-instagram ;
+                        font-size: 15px ;
                     }
                 }
 

@@ -1,5 +1,6 @@
 //HEADER
 /* Estilos HEADER */
+@import "variable";
 
 header {
     display: flex;
@@ -27,7 +28,7 @@ header {
     }
     
     .nav__links li a:hover {
-        color: $amarillo;
+        color: #e1b12c;
         box-shadow: 0px 1px 0px #e4e9e9;
     }
 

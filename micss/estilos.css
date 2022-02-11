@@ -22,6 +22,7 @@ footer {
 
 /* Variables de colores */
 /* Estilos HEADER */
+/* Variables de colores */
 header {
   display: flex;
   flex-direction: column;
@@ -148,7 +149,6 @@ a {
   .container-contact form {
     width: 90%;
     background: white;
-    /* margin: 100px; */
     padding: 40px;
     border-radius: 3px;
     box-sizing: border-box;
@@ -190,7 +190,7 @@ a {
 /* FOOTER */
 footer {
   width: 100%;
-  background-color: #0f1111;
+  background-color: black;
   color: white; }
   footer .container-footer-all {
     margin: auto;
@@ -203,9 +203,7 @@ footer {
         footer .container-footer-all .container-body .column1 .hilera {
           margin-top: 20px;
           display: flex; }
-          footer .container-footer-all .container-body .column1 .hilera .fa-instagram {
-            font-size: 15px; }
-          footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square {
+          footer .container-footer-all .container-body .column1 .hilera .fa-instagram, footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
             font-size: 15px; }
           footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
             font-size: 15px; }
@@ -526,11 +524,9 @@ footer {
           footer .container-footer-all .container-body .column1 .hilera {
             margin-top: 20px;
             display: flex; }
-            footer .container-footer-all .container-body .column1 .hilera .fa-instagram {
+            footer .container-footer-all .container-body .column1 .hilera .fa-instagram, footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
               font-size: 20px; }
-            footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square {
-              font-size: 20px; }
-            footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
+            footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
               font-size: 20px; }
           footer .container-footer-all .container-body .column1 .hilera img {
             width: 36px;
