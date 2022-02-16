@@ -9,9 +9,11 @@
 }
 //Fin mixing
 
-//Maps
+//Maps-get
+
 $secundario: map-get($paleta, secundario);
 $primario: map-get($paleta, primario);
+
 
 footer {
     width: 100%;

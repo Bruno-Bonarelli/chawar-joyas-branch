@@ -1,0 +1,10 @@
+1. Mapa, un mixin y un extend estan utilizados en el footer.
+2. Agregue keywords y descripcion en todos los html:
+
+...<meta name="keywords" content="joyas, diges, collares, artesanal">
+...<meta name="description" content="Joyeria de autor, piezas unicas.">
+
+3. Los titulos de las diferentes paginas ya los tenia.
+4. La imagen "quienes-somos" la duplique y la puse en diferentes tamaños para utilizarla de manera correcta.
+5. Agregue mas imagenes para el carrusel de "Productos"
+6. No le baje la calidad a las imagenes porque ya de por si no son muy buenas, pero si fueran necesario me gustaria que me lo digan y lo hago.
