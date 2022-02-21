@@ -543,19 +543,120 @@ footer {
     background-color: black;
     color: white; }
     footer .container-footer-all {
-      margin: auto;
       padding: 30px;
-      background-color: black; }
+      background-color: black;
+      margin-top: 40px;
+      margin-bottom: 40px; }
       footer .container-footer-all .container-body {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
-        background-color: black; }
+        background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* .column1 {
+                    
+                    background-color: $secundario;
+
+
+                    .hilera {
+                        margin-top: 20px;
+                        
+                        background-color: $secundario;
+
+
+                        .fa-instagram {
+                            font-size: 20px;
+                        }
+        
+                        .fa-facebook-square {
+                            font-size: 20px ;
+                        }
+        
+                        .fa-twitter-square {
+                            @extend .fa-facebook-square ;
+                        }
+
+
+
+                    }
+    
+                    .hilera img {
+                        @include tamaño (36px, 36px)
+                        
+                    }
+    
+                    .hilera label {
+                        margin-top: 0px;
+                        color: $blanco;
+                    }
+    
+                    .hilera label a:hover {
+                        color: $amarillo;
+                    }
+
+
+
+                } */
+        /* .column1 h4 {
+                    font-size: 20px;
+                    color: $blanco;
+                }
+
+
+                .column2 {
+                
+
+
+                    .row2 {
+                        margin-top: 20px;
+                        display: flex;
+
+
+                        .fa-location-arrow {
+                            font-size: 20px ;
+                        }
+        
+                        .fa-phone {
+                            font-size: 20px ;
+                        }
+        
+                        .fa-envelope {
+                            font-size: 20px ;
+                        }
+
+
+                    }
+    
+                    .row2 img {
+                        @include tamaño (36px, 36px)
+                    }
+    
+                    .row2 label {
+                        margin-left: 20px;
+                        margin-top: 0px;
+                        max-width: 250px;
+                    }
+
+
+
+                }
+
+                .column2 h4 {
+                    font-size: 20px;
+                } */ }
         footer .container-footer-all .container-body .column1 {
-          max-width: 600px;
-          background-color: black; }
+          margin-right: 140px; }
+          footer .container-footer-all .container-body .column1 .hilera label a {
+            color: white;
+            font-size: 18px;
+            margin-top: 0px;
+            text-decoration: none;
+            list-style-type: none;
+            margin-left: 20px;
+            text-align: center; }
           footer .container-footer-all .container-body .column1 .hilera {
-            margin-top: 20px;
-            display: flex;
+            margin-top: 10px;
             background-color: black; }
             footer .container-footer-all .container-body .column1 .hilera .fa-instagram {
               font-size: 20px; }
@@ -569,14 +670,16 @@ footer {
             color: white; }
           footer .container-footer-all .container-body .column1 .hilera label a:hover {
             color: #e1b12c; }
-        footer .container-footer-all .container-body .column1 h4 {
-          font-size: 20px;
-          color: white; }
         footer .container-footer-all .container-body .column2 {
-          max-width: 600px; }
+          margin-top: 0px;
+          margin-left: 140px; }
+          footer .container-footer-all .container-body .column2 .row2 label {
+            margin-left: 0px;
+            font-size: 18px; }
           footer .container-footer-all .container-body .column2 .row2 {
-            margin-top: 20px;
-            display: flex; }
+            margin-top: 10px;
+            display: flex;
+            max-width: auto; }
             footer .container-footer-all .container-body .column2 .row2 .fa-location-arrow {
               font-size: 20px; }
             footer .container-footer-all .container-body .column2 .row2 .fa-phone {
@@ -590,8 +693,6 @@ footer {
             margin-left: 20px;
             margin-top: 0px;
             max-width: 250px; }
-        footer .container-footer-all .container-body .column2 h4 {
-          font-size: 20px; }
       footer .container-footer-all .container-body a,
       footer .container-footer-all label {
         color: white; }
