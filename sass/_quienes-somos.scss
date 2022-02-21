@@ -4,14 +4,12 @@
 #quienes-somos-all {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 14px;
     margin-left: 10px;
     margin-right: 10px;
 
     .quienes-text {
-        grid-area: texto;
-        justify-self: start;
         padding: 20px;
         font-size: 16px;
         font-weight: 599;
@@ -19,7 +17,11 @@
 
     .quienes-img img {
         padding: 5px;
-        width: 385px;
+        width: 330px;
+    }
+    #quienes-image-animation {
+        display: flex;
+        justify-content: center;
     }
 
 
