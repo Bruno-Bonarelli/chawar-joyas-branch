@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reseteo y fuente */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 * {
@@ -9,7 +10,7 @@
 #grid-area {
   display: grid;
   grid-template-areas: "cabeza" "cuerpo" "pie";
-  grid-template-rows: 110px auto auto; }
+  grid-template-rows: auto auto auto; }
 
 header {
   grid-area: cabeza; }
@@ -23,45 +24,15 @@ footer {
 /* Variables de colores */
 /* Estilos HEADER */
 /* Variables de colores */
-header {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+nav {
   box-shadow: 0px 2px 5px #d3d1d1; }
-  header #flex-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-    margin-top: 5px; }
-  header .nav__links li a {
-    transition: all 10s ease 3; }
-  header .nav__links li a:hover {
-    color: #e1b12c;
-    box-shadow: 0px 1px 0px #e4e9e9; }
-  header .flex-logo img {
-    width: 55px;
-    height: auto; }
-
-header li,
-a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  color: black;
-  text-decoration: none;
-  list-style-type: none;
-  margin-left: 20px;
-  text-align: center; }
 
 /* FIN */
 /* INDEXX */
 /* BOOTSTRAP */
 .cuerpo-flex {
-  margin: 10px; }
+  margin: 10px;
+  margin-top: 30px; }
 
 /* FIN */
 /* QUIENES SOMOS */
@@ -79,8 +50,8 @@ a {
     font-size: 16px;
     font-weight: 599; }
   #quienes-somos-all .quienes-img img {
-    padding: 8px;
-    width: 450px; }
+    padding: 5px;
+    width: 385px; }
 
 /* FIN */
 /* PRODUCTO */
@@ -111,18 +82,20 @@ a {
 #grid-talles {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 10px;
-  padding: 20px; }
+  justify-content: space-around; }
   #grid-talles .grid-question {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
     border-bottom: solid 1px #aaa8a8; }
   #grid-talles .grid-question h1 {
+    display: flex;
+    justify-content: center;
     padding: 5px;
     margin: 25px;
     font-size: 55px; }
   #grid-talles .grid-desarrollo {
-    margin: 20px;
-    margin-left: 100px; }
+    margin: 15px; }
   #grid-talles .grid-desarollo,
   #grid-talles ol,
   #grid-talles li {
@@ -138,15 +111,15 @@ a {
   align-items: center;
   background-size: cover;
   z-index: -1;
-  margin: 15px; }
+  margin: 7px; }
 
 .container-contact {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 25px;
   padding-bottom: 100px; }
   .container-contact form {
-    width: 90%;
+    width: 98%;
     background: white;
     padding: 40px;
     border-radius: 3px;
@@ -162,6 +135,15 @@ a {
       display: block;
       margin: 20px 0;
       color: black; }
+    .container-contact form input,
+    .container-contact form textarea {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      outline: none;
+      resize: none;
+      border: none;
+      border-bottom: 1px solid white; }
     .container-contact form input[type="text"]:focus,
     .container-contact form textarea:focus {
       border-bottom: 1px solid black; }
@@ -188,60 +170,106 @@ a {
 /* FIN */
 /* FOOTER */
 footer {
-  width: 100%;
   background-color: black;
   color: white; }
   footer .container-footer-all {
-    margin: auto;
-    padding: 30px; }
+    display: flex;
+    justify-content: center;
+    /* .container-body a,
+        label {
+            color: $blanco;
+        } */ }
     footer .container-footer-all .container-body {
       display: flex;
-      justify-content: space-between; }
-      footer .container-footer-all .container-body .column1 {
-        max-width: 600px; }
-        footer .container-footer-all .container-body .column1 .hilera {
-          margin-top: 20px;
-          display: flex; }
-          footer .container-footer-all .container-body .column1 .hilera .fa-instagram, footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
-            font-size: 15px; }
-          footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
-            font-size: 15px; }
-        footer .container-footer-all .container-body .column1 .hilera img {
-          width: 36px;
-          height: 36px; }
-        footer .container-footer-all .container-body .column1 .hilera label {
-          margin-top: 0px;
-          color: white;
-          font-size: 13px; }
-        footer .container-footer-all .container-body .column1 .hilera label a:hover {
-          color: #e1b12c; }
-      footer .container-footer-all .container-body .column1 h4 {
-        font-size: 13px;
-        color: white; }
+      flex-direction: column;
+      justify-content: space-around;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      /* .column1 {
+                
+
+                .hilera {
+                    margin-top: 20px;
+
+                    .fa-instagram {
+                        font-size: 15px;
+                    }
+
+                    .fa-facebook-square {
+                        @extend .fa-instagram;
+                    }
+
+                    .fa-twitter-square {
+                        font-size: 15px;
+                    }
+                }
+
+                .hilera img {
+                    @include tamaño(36px, 36px);
+                }
+
+                .hilera label {
+                    margin-top: 0px;
+                    color: $blanco;
+                    font-size: 13px;
+                }
+
+                .hilera label a:hover {
+                    color: $amarillo;
+                }
+            } */
+      /* .column1 h4 {
+                font-size: 13px;
+                color: $blanco;
+            }
+
+            .column2 {
+                
+
+                .row2 {
+                    margin-top: 20px;
+
+                    .row2 img {
+                        @include tamaño(36px, 36px);
+                    }
+
+                    .row2 label {
+                        margin-left: 20px;
+                        margin-top: 0px;
+                        max-width: 250px;
+                        font-size: 13px;
+                    }
+
+                    .fa-location-arrow {
+                        font-size: 15px;
+                    }
+
+                    .fa-phone {
+                        font-size: 15px;
+                    }
+
+                    .fa-envelope {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .column2 h4 {
+                font-size: 13px;
+            } */ }
+      footer .container-footer-all .container-body .column1 .hilera label a {
+        color: white;
+        font-size: 18px;
+        margin-top: 30px;
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 20px;
+        text-align: center; }
       footer .container-footer-all .container-body .column2 {
-        max-width: 600px; }
-        footer .container-footer-all .container-body .column2 .row2 {
-          margin-top: 20px;
-          display: flex; }
-          footer .container-footer-all .container-body .column2 .row2 .row2 img {
-            width: 36px;
-            height: 36px; }
-          footer .container-footer-all .container-body .column2 .row2 .row2 label {
-            margin-left: 20px;
-            margin-top: 0px;
-            max-width: 250px;
-            font-size: 13px; }
-          footer .container-footer-all .container-body .column2 .row2 .fa-location-arrow {
-            font-size: 15px; }
-          footer .container-footer-all .container-body .column2 .row2 .fa-phone {
-            font-size: 15px; }
-          footer .container-footer-all .container-body .column2 .row2 .fa-envelope {
-            font-size: 15px; }
-      footer .container-footer-all .container-body .column2 h4 {
-        font-size: 13px; }
-    footer .container-footer-all .container-body a,
-    footer .container-footer-all label {
-      color: white; }
+        margin-top: 60px; }
+        footer .container-footer-all .container-body .column2 .row2 label {
+          margin-left: 20px;
+          font-size: 18px; }
 
 /* FINN */
 /* MEDIA QUERIS DESKTOP */
@@ -529,7 +557,7 @@ footer {
             margin-top: 20px;
             display: flex;
             background-color: black; }
-            footer .container-footer-all .container-body .column1 .hilera .fa-instagram, footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
+            footer .container-footer-all .container-body .column1 .hilera .fa-instagram {
               font-size: 20px; }
             footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
               font-size: 20px; }

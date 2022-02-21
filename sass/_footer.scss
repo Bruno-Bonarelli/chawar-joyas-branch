@@ -1,11 +1,9 @@
 /* FOOTER */
 
 //MIXING
-@mixin tamaño ($ancho, $alto) {
-
+@mixin tamaño($ancho, $alto) {
     width: $ancho;
     height: $alto;
-    
 }
 //Fin mixing
 
@@ -14,76 +12,91 @@
 $secundario: map-get($paleta, secundario);
 $primario: map-get($paleta, primario);
 
-
 footer {
-    width: 100%;
     background-color: $secundario;
     color: $primario;
 
     .container-footer-all {
-        
-        margin: auto;
-        padding: 30px;
+        display: flex;
+        justify-content: center;
 
         .container-body {
             display: flex;
-            justify-content: space-between;
-
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 60px;
+            margin-bottom: 60px;
 
             .column1 {
-                max-width: 600px;
+                .hilera label a {
+                    color: white;
+                    font-size: 18px;
+                    margin-top: 30px;
+                    text-decoration: none;
+                    list-style-type: none;
+                    margin-left: 20px;
+                    text-align: center;
+                }
+            }
 
+            .column2 {
+                margin-top: 60px;
+
+                .row2 {
+                    label {
+                        margin-left: 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            /* .column1 {
+                
 
                 .hilera {
                     margin-top: 20px;
-                    display: flex;
 
                     .fa-instagram {
                         font-size: 15px;
                     }
-                    
+
                     .fa-facebook-square {
-                        @extend .fa-instagram ;
+                        @extend .fa-instagram;
                     }
-                    
+
                     .fa-twitter-square {
-                        font-size: 15px ;
+                        font-size: 15px;
                     }
                 }
-                
+
                 .hilera img {
-                    @include tamaño (36px, 36px)
+                    @include tamaño(36px, 36px);
                 }
-                
+
                 .hilera label {
                     margin-top: 0px;
                     color: $blanco;
                     font-size: 13px;
-                
                 }
-                
+
                 .hilera label a:hover {
                     color: $amarillo;
-                
                 }
-            
-            }
-            
-            .column1 h4 {
+            } */
+
+            /* .column1 h4 {
                 font-size: 13px;
                 color: $blanco;
             }
 
             .column2 {
-                max-width: 600px;
-
+                
 
                 .row2 {
                     margin-top: 20px;
-                    display: flex;
 
                     .row2 img {
-                        @include tamaño (36px, 36px)
+                        @include tamaño(36px, 36px);
                     }
 
                     .row2 label {
@@ -91,42 +104,32 @@ footer {
                         margin-top: 0px;
                         max-width: 250px;
                         font-size: 13px;
-                    
                     }
 
                     .fa-location-arrow {
-                        font-size: 15px ;
+                        font-size: 15px;
                     }
-                    
+
                     .fa-phone {
-                        font-size: 15px ;
+                        font-size: 15px;
                     }
-                    
+
                     .fa-envelope {
-                        font-size: 15px ;
+                        font-size: 15px;
                     }
                 }
-
-
-            
             }
-            
+
             .column2 h4 {
                 font-size: 13px;
-            }
-
-
-
-
-
+            } */
         }
 
-        .container-body a,
+        /* .container-body a,
         label {
             color: $blanco;
-        }
+        } */
     }
 }
-
 
 /* FINN */
