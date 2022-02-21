@@ -256,8 +256,8 @@ footer {
   #grid-area {
     display: grid;
     grid-template-areas: "cabeza" "cuerpo" "pie";
-    grid-template-rows: 90px auto 45px; }
-  header {
+    grid-template-rows: 90px auto auto; }
+  nav {
     grid-area: cabeza; }
   main {
     grid-area: cuerpo; }
@@ -266,8 +266,13 @@ footer {
   /* FINN */
   /* ----------------------------------------- */
   /* HEADER */
-  header {
+  nav {
     box-shadow: 0px 2px 5px #d3d1d1; }
+    nav ul li a {
+      transition: all 10s ease 3; }
+    nav ul li a:hover {
+      color: #e1b12c;
+      box-shadow: 2px 2px 2px #e4e9e9da; }
   #grid-header {
     display: grid;
     grid-template-areas: "chawar navegacion";
@@ -507,22 +512,23 @@ footer {
   /* ----------------------------------- */
   /* FOOOTER */
   footer {
-    width: 100%;
     background-color: black;
     color: white; }
     footer .container-footer-all {
-      width: 100%;
-      max-width: 1000px;
       margin: auto;
-      padding: 30px; }
+      padding: 30px;
+      background-color: black; }
       footer .container-footer-all .container-body {
         display: flex;
-        justify-content: space-between; }
+        justify-content: space-around;
+        background-color: black; }
         footer .container-footer-all .container-body .column1 {
-          max-width: 600px; }
+          max-width: 600px;
+          background-color: black; }
           footer .container-footer-all .container-body .column1 .hilera {
             margin-top: 20px;
-            display: flex; }
+            display: flex;
+            background-color: black; }
             footer .container-footer-all .container-body .column1 .hilera .fa-instagram, footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {
               font-size: 20px; }
             footer .container-footer-all .container-body .column1 .hilera .fa-facebook-square, footer .container-footer-all .container-body .column1 .hilera .fa-twitter-square {

@@ -20,10 +20,10 @@
             "cuerpo"
             "pie";
 
-        grid-template-rows: 90px auto 45px;
+        grid-template-rows: 90px auto auto;
     }
 
-    header {
+    nav {
         grid-area: cabeza;
     }
 
@@ -41,10 +41,20 @@
 
     /* HEADER */
 
-    header {
+    nav {
         box-shadow: 0px 2px 5px rgb(211, 209, 209);
 
-        
+        ul li a {
+            transition: all 10s ease 3;
+
+        }
+
+        ul li a:hover {
+            color: $amarillo;
+            box-shadow: 2px 2px 2px #e4e9e9da;
+
+        }
+
     }
    
     
@@ -435,29 +445,33 @@
     //Maps
 
     footer {
-        width: 100%;
+        
         background-color: $secundario;
         color: $primario;
 
         .container-footer-all {
-            width: 100%;
-            max-width: 1000px;
+            
+            
             margin: auto;
             padding: 30px;
+            background-color: $secundario;
 
             .container-body {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
+                background-color: $secundario;
 
                 
 
                 .column1 {
                     max-width: 600px;
+                    background-color: $secundario;
 
 
                     .hilera {
                         margin-top: 20px;
                         display: flex;
+                        background-color: $secundario;
 
 
                         .fa-instagram {
@@ -478,6 +492,7 @@
     
                     .hilera img {
                         @include tamaño (36px, 36px)
+                        
                     }
     
                     .hilera label {
