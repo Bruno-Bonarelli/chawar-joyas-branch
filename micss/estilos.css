@@ -32,7 +32,8 @@ nav {
 /* BOOTSTRAP */
 .cuerpo-flex {
   margin: 10px;
-  margin-top: 30px; }
+  margin-top: 60px;
+  margin-bottom: 60px; }
 
 /* FIN */
 /* QUIENES SOMOS */
@@ -44,11 +45,11 @@ nav {
   margin-left: 10px;
   margin-right: 10px; }
   #quienes-somos-all .quienes-text {
-    /* grid-area: texto;
-        justify-self: start; */
     padding: 20px;
     font-size: 16px;
     font-weight: 599; }
+    #quienes-somos-all .quienes-text h1 {
+      font-size: 28px; }
   #quienes-somos-all .quienes-img img {
     padding: 5px;
     width: 330px; }
@@ -96,7 +97,7 @@ nav {
     justify-content: center;
     padding: 5px;
     margin: 25px;
-    font-size: 55px; }
+    font-size: 50px; }
   #grid-talles .grid-desarrollo {
     margin: 15px; }
   #grid-talles .grid-desarollo,
